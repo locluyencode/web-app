@@ -7,6 +7,7 @@ function App() {
   const add = "Đà Nẵng, Việt Nam";
   const fb = "https://facebook.com/baloc.nguyen14";
   const aws = "https://graduation.udacity.com/confirm/EPKHAJHT";
+  const java = "https://graduation.udacity.com/confirm/RZV6WJTU";
   return (
     <div className="App">
       <header className="App-header">
@@ -26,6 +27,9 @@ function App() {
         <p>Study</p>
         <a className="App-link" href={aws}>
           <li>AWS</li>{" "}
+        </a>
+        <a className="App-link" href={java}>
+          <li>JAVA</li>{" "}
         </a>
       </header>
     </div>
