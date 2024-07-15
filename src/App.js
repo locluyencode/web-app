@@ -1,15 +1,17 @@
-import gif from "./gif2.gif";
 import "./App.css";
+import gif from "./gif2.gif";
 
 function App() {
   const name = "Cậu Tốm";
   const isMale = true;
   const add = "Đà Nẵng, Việt Nam";
   const fb = "https://facebook.com/baloc.nguyen14";
-  const aws = "https://graduation.udacity.com/confirm/EPKHAJHT";
-  const java = "https://graduation.udacity.com/confirm/RZV6WJTU";
+  const aws = "https://www.udacity.com/certificate/EPKHAJHT";
+  const java = "https://www.udacity.com/certificate/RZV6WJTU";
+  const react =
+    "https://www.udacity.com/certificate/e/72f1d7a0-1db0-11ef-8afc-bfcdf4b90c7e";
   const android =
-    "https://graduation.udacity.com/confirm/e/facf122c-fb5c-11ed-8e86-07065207c643";
+    "https://www.udacity.com/certificate/e/facf122c-fb5c-11ed-8e86-07065207c643";
   return (
     <div className="App">
       <header className="App-header">
@@ -36,6 +38,9 @@ function App() {
           </a>
           <a className="App-link" href={android}>
             <li>ANDROID</li>{" "}
+          </a>
+          <a className="App-link" href={react}>
+            <li>REACT</li>{" "}
           </a>
         </ul>
       </header>
